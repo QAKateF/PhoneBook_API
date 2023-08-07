@@ -12,10 +12,10 @@ import lombok.ToString;
 
 public class ContactDTO {
      String id;
+     String name;
      String lastName;
      String email;
      String phone;
      String address;
      String description;
-
 }
