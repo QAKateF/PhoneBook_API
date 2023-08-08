@@ -12,6 +12,7 @@ import org.testng.annotations.Test;
 public class AddNewContact implements HelperBase {
     String endpoint = "/v1/contacts";
     String id;
+
     @Test
     public void addNewContactPositive() throws Exception {
         ContactDTO contactDTO = ContactDTO.builder().name("Test").

@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="43511ddc-bc00-4186-89dd-b08c6baacc3a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DTO/ContactDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DTO/ContactDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DTO/ContactResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DTO/ContactResponseDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ok_http/GetAllContacts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ok_http/GetAllContacts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ok_http/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ok_http/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ok_http/AddNewContact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ok_http/AddNewContact.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,8 +98,8 @@
       <recent name="http" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.GetAllContactsTests.getAllContactsPositive">
-    <configuration name="GetAllContactsTests.getAllContactsPositive" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.UpdateContactTests.updateContactPositive">
+    <configuration name="AddNewContacts.addNewContactsPositive" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -115,31 +112,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;restassured_tests.GetAllContactsTests.getAllContactsPositive&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="LoginTests (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;restassured_tests.LoginTests&quot;" />
+            <option value="&quot;restassured_tests.AddNewContacts.addNewContactsPositive&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -170,7 +143,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="LoginTests.loginNegativeWrongEmail (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RegistrationTests.RegistrationNegtive" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -183,7 +156,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;restassured.LoginTests.loginNegativeWrongEmail&quot;" />
+            <option value="&quot;restassured_tests.RegistrationTests.RegistrationNegtive&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -194,7 +167,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="LoginTests.loginNegativeWrongEmail" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RegistrationTests.RegistrationPositive" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -207,7 +180,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;restassured_tests.LoginTests.loginNegativeWrongEmail&quot;" />
+            <option value="&quot;restassured_tests.RegistrationTests.RegistrationPositive&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -218,7 +191,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="LoginTests.loginPositive (2)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UpdateContactTests.updateContactPositive" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -231,7 +204,31 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;restassured_tests.LoginTests.loginPositive&quot;" />
+            <option value="&quot;restassured_tests.UpdateContactTests.updateContactPositive&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="UpdateContactTests.updateNewContactPositive" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;restassured_tests.UpdateContactTests.updateNewContactPositive&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -244,11 +241,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.GetAllContactsTests.getAllContactsPositive" />
-        <item itemvalue="Gradle.LoginTests (1)" />
-        <item itemvalue="Gradle.LoginTests.loginNegativeWrongEmail" />
-        <item itemvalue="Gradle.LoginTests.loginPositive (2)" />
-        <item itemvalue="Gradle.LoginTests.loginNegativeWrongEmail (1)" />
+        <item itemvalue="Gradle.UpdateContactTests.updateContactPositive" />
+        <item itemvalue="Gradle.UpdateContactTests.updateNewContactPositive" />
+        <item itemvalue="Gradle.AddNewContacts.addNewContactsPositive" />
+        <item itemvalue="Gradle.RegistrationTests.RegistrationNegtive" />
+        <item itemvalue="Gradle.RegistrationTests.RegistrationPositive" />
       </list>
     </recent_temporary>
   </component>
